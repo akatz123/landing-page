@@ -3,3 +3,15 @@ body {
   color: mistyrose;
   font-family: sans-serif;
 }
+
+main {
+  margin: 0 auto;
+  text-align: center;
+  width: 800px
+}
+
+@media all and (max-width: 799px) {
+  main {
+    width: 100%;
+  }
+}
