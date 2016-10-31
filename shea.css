@@ -15,3 +15,9 @@ main {
     width: 100%;
   }
 }
+
+#mc_embed_signup{
+  background: transparent;
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif;
+}
