@@ -11,6 +11,7 @@ body {
   color: mistyrose;
   font-family: sans-serif;
   min-height: 100%;
+  width: 100%;
 }
 
 main {
@@ -32,6 +33,12 @@ main {
   color: black;
   font: 14px Helvetica,Arial,sans-serif;
   margin-top: 2em;
+}
+
+@media all and (max-width: 599px) {
+  #mc_embed_signup {
+    width: 100%;
+  }
 }
 
 #mc_embed_signup form {
