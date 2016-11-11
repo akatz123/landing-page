@@ -46,13 +46,19 @@ main {
 }
 
 #mc_embed_signup_scroll > p {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
   font-family: courier new,courier,lucida sans typewriter,lucida typewriter,monospace;
   font-size: 1.2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
   text-align: center;
+}
+
+#mc_embed_signup_scroll > p:first-of-type {
+  border-top: 1px solid black;
+  padding-top: 1em;
+}
+
+#mc_embed_signup_scroll > p:last-of-type {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
 }
 
 #mc_embed_signup form label {
